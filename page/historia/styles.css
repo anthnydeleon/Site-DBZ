@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+:root {
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-orange: #ffa500;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: var(--color-dark1);
+    color: var(--color-white);
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-dark2);
+    justify-content: space-between;
+    box-shadow: 0 0 2rem black;
+    padding: 10px 5%;
+}
+
+.logo img {
+    width: 75px;
+    background-color: var(--color-orange);
+    border-radius: 100%;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-dark3);
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 10px;
+    color: var(--color-white);
+    font-size: 16px;
+    height: 30px;
+    width: 380px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.menu a {
+    color: orange;
+    font-family: "silkscreen";
+}
+
+.title-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.title {
+    font-family: "silkscreen";
+    font-size: 40px;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 10em;
+}
+
+.principal-imagem {
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+.principal-titulo {
+    font-family: "silkscreen";
+    font-size: 20px;
+    display: flex;
+}
+
+.principal-paragrafo {
+    font-family: "silkscreen";
+    font-size: 15px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border-top: 1px solid #000000;
+}
+
+.goku-rodape {
+    height: 100px;
+    width: auto;
+}
+
+.rodape-txt {
+    font-family: "silkscreen";
+
+}
